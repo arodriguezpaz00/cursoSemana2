@@ -27,29 +27,29 @@
             <tbody>
                 <tr class="">
                     <td scope="row">Productos</td>
-                    <td> </td>
-                    <td> </td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td id="demo1"> </td>
+                    <td id="demo2"> </td>
+                    <td id="demo3"></td>
+                    <td id="demo4"></td>
+                    <td id="demo5"></td>
                 </tr>
                 <tr class="">
                     <td scope="row">Gastos</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td id="gasto1"></td>
+                    <td id="gasto2"></td>
+                    <td id="gasto3"></td>
+                    <td id="gasto4"></td>
+                    <td id="gasto5"></td>
                 </tr>
             </tbody>
         </table>
     </div>
-    <button type="button" class="btn btn-danger">MIS COMPRAS</button>
+    <button type="button" class="btn btn-danger" onclick="function1()" >MIS COMPRAS</button>
     
     <div style="padding:20px; background-color:beige; border:2px solid black; height:200px; width: 400px;  float: inline-end;">
     <p style="text-align:center">Gastos Semanales:</p>
     <br>
-    <p>Gastos Totales:</p>
+    <p id="totalGasto">Gastos Totales:</p>
     </div>
 
     
